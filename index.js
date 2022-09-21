@@ -6,7 +6,7 @@ var Original_content=`<div >
 <h4 class="title"><a href="">Title</a></h4>
 <p class="description">Description</p>
 </div>`
-fetch('http://localhost:1234/services')
+fetch('https://vlava.herokuapp.com/services')
   .then(response => response.json())
   .then(json => {
     json.Sheet1.forEach(element => {
